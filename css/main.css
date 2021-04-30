@@ -88,7 +88,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .banner-main{
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .banner{
   height: 500px;
@@ -163,16 +163,23 @@ textarea {
     padding-left: 0;
     padding-right: 0;
   }
+  .user-des {
+    margin-left: 20px;
+}
   .user-des h2{
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 0px;
   }
   .user-des span{
-    font-size: 16px;
+    font-size: 14px;
   }
   .social-single-icon p{
     font-size: 14px;
     margin: 0;
     margin-top: 10px;
+  }
+  .banner{
+    height: 30vh;
   }
 }
 
