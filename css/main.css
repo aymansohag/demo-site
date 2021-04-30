@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 /*
@@ -130,7 +131,27 @@ textarea {
 .footer-text p{
   font-size: 18px;
 }
-
+.share-sub a {
+  display: block;
+  background: #0AAFDD;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+.share-sub a i {
+  font-size: 19px;
+  margin-top: 14px;
+}
+.share-main{
+  position: relative;
+}
+.share-sub {
+  position: absolute;
+  top: -24px;
+  right: 0;
+  z-index: 9999;
+}
 /* Media */
 
 @media (max-width: 720px){
@@ -140,7 +161,7 @@ textarea {
     padding-right: 0;
   }
   .user-des h2{
-    font-size: 30px;
+    font-size: 20px;
   }
   .user-des span{
     font-size: 16px;
